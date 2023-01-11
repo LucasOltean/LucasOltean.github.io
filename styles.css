@@ -1,0 +1,660 @@
+/* index Home */
+
+/* Cream bara de navigatie */ 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex ;
+    
+}
+
+.right-side {
+    color: rgb(252, 75, 22);
+}
+
+.navbar > .left-side > div {
+    margin-right: 20px;
+}
+
+.space {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.space a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color;
+}
+
+/* Cream animatia pentru  bara de navigatie */
+.space:hover{
+    border-bottom: 1px solid rgb(252, 75, 22);
+}
+
+.space a:hover{
+    color: rgb(252, 75, 22);
+}
+
+.active-nav-link {
+    border-bottom: 1px solid rgb(252, 75, 22);
+}
+
+.active-nav-link a{
+    color: rgb(252, 75, 22) !important;
+}
+/* Construim background-ul text/imagine fundal */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.text-wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: -33%;
+}
+
+.text-wrapper h1{
+    text-align: center;
+    color:rgb(252, 75, 22);
+    font-size: 3vw;
+    font-family: "Lato" , sans-serif;
+}
+
+/* Cream Footer-ul pagini */
+footer {
+    position: relative;
+    margin-top: 20%;
+    margin-bottom: 15px;
+    background-color: #424242;
+    line-height: 0.7;
+}
+
+.footer-index {
+    position: relative;
+    margin-top: 15%;
+    margin-bottom: 15px;
+    background-color: #424242;
+    line-height: 0.7;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-links a{
+    padding: 15px;
+    color: rgb(252, 75, 22);
+    text-decoration: none;
+    transition: color;
+}
+
+.footer-copyright p{
+    text-align: center;
+    margin-top: 1%;
+}
+
+
+
+/* a2 Land Cruiser */
+
+.imagea2 {
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+
+}
+
+.contexta2 {
+    background-color: whitesmoke;
+}
+
+.text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+    font-family: "Lato", sans-serif;
+}
+
+.a2left-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a2left-side p{
+    text-align: center;
+}
+
+.a2right-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a2right-side p{
+    text-align: center;
+}
+
+.a2center{
+    display: grid;
+    grid-area: 2/1/3/3;
+}
+
+.a2center h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a2center p{
+    text-align: center;
+}
+
+.a2price{
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+.a2price h1{
+    color: rgb(252, 75, 22)
+}
+.a2footer {
+    margin-top: -19%;
+    background-color: #424242;
+
+}
+
+
+
+/* a3 Hilux */
+
+.imagea3 {
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.contexta3 {
+    background-color: whitesmoke;
+}
+
+.a3text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+    font-family: "Lato", sans-serif;
+}
+
+.a3left-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a3left-side p{
+    text-align: center;
+}
+
+.a3right-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a3right-side p{
+    text-align: center;
+}
+
+.a3center{
+    display: grid;
+    grid-area: 2/1/3/3;
+}
+
+.a3center h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a3center p{
+    text-align: center;
+}
+
+.a3price{
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+.a3price h1{
+    color: rgb(252, 75, 22)
+}
+
+.a3footer {
+    margin-top: -19%;
+    background-color: #424242;
+
+}
+
+
+
+/* a4 C-HR */
+
+.imagea4 {
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.contexta4 {
+    background-color: whitesmoke;
+}
+
+.a4text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+    font-family: "Lato", sans-serif;
+}
+
+.a4left-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a4left-side p{
+    text-align: center;
+}
+
+.a4right-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a4right-side p{
+    text-align: center;
+}
+
+.a4center{
+    display: grid;
+    grid-area: 2/1/3/3;
+}
+
+.a4center h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a4center p{
+    text-align: center;
+}
+
+.a4price{
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+.a4price h1{
+    color: rgb(252, 75, 22)
+}
+
+.a4footer {
+    margin-top: -19%;
+    background-color: #424242;
+
+}
+
+
+
+/* a5 Yaris Cross */
+
+.imagea5 {
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.contexta5 {
+    background-color: whitesmoke;
+}
+
+.a5text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+    font-family: "Lato", sans-serif;
+}
+
+.a5left-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a5left-side p{
+    text-align: center;
+}
+
+.a5right-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a5right-side p{
+    text-align: center;
+}
+
+.a5center{
+    display: grid;
+    grid-area: 2/1/3/3;
+}
+
+.a5center h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a5center p{
+    text-align: center;
+}
+
+.a5price{
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+.a5price h1{
+    color: rgb(252, 75, 22)
+}
+
+.a5footer {
+    margin-top: -19%;
+    background-color: #424242;
+
+}
+
+
+
+/* a6 GR-Yaris */
+
+.imagea6 {
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.contexta6 {
+    background-color: whitesmoke;
+}
+
+.a6text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+    font-family: "Lato", sans-serif;
+}
+
+.a6left-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a6left-side p{
+    text-align: center;
+}
+
+.a6right-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a6right-side p{
+    text-align: center;
+}
+
+.a6center{
+    display: grid;
+    grid-area: 2/1/3/3;
+}
+
+.a6center h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a6center p{
+    text-align: center;
+}
+
+.a6price{
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+.a6price h1{
+    color: rgb(252, 75, 22)
+}
+
+.a6footer {
+    margin-top: -19%;
+    background-color: #424242;
+
+}
+
+
+
+/* a7 Camry */
+
+.imagea7 {
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.contexta7 {
+    background-color: whitesmoke;
+}
+
+.a7text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+    font-family: "Lato", sans-serif;
+}
+
+.a7left-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a7left-side p{
+    text-align: center;
+}
+
+.a7right-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a7right-side p{
+    text-align: center;
+}
+
+.a7center{
+    display: grid;
+    grid-area: 2/1/3/3;
+}
+
+.a7center h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a7center p{
+    text-align: center;
+}
+
+.a7price{
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+.a7price h1{
+    color: rgb(252, 75, 22)
+}
+
+.a7footer {
+    margin-top: -19%;
+    background-color: #424242;
+
+}
+
+
+
+/* a8 Proace Verso */
+
+.imagea8 {
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.contexta8 {
+    background-color: whitesmoke;
+}
+
+.a8text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+    font-family: "Lato", sans-serif;
+}
+
+.a8left-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a8left-side p{
+    text-align: center;
+}
+
+.a8right-side h2{
+    text-align: center;
+    color: rgb(252, 75, 22);
+}
+
+.a8right-side p{
+    text-align: center;
+}
+
+.a8price{
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+.a8price h1{
+    color: rgb(252, 75, 22)
+}
+
+.a8footer {
+    margin-top: -19%;
+    background-color: #424242;
+
+}
+
+
+/* a9 Toyota */
+
+
+.a9wrapper {
+    background-color: whitesmoke;
+    margin-top: -30px;
+}
+
+.containera9 {
+    text-align: center;
+    background-color: whitesmoke;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: auto;
+}
+
+.banner-area h1{
+    font-size: 45px;
+    color:rgb(252, 75, 22);
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 50px ;
+    margin-right: 50px 
+}
+
+.containera9 p{
+    font-size: 20px;
+    color: black;
+    margin-left: 30px ;
+    margin-right: 30px ;
+}
+
+.a9price h1{
+    color: rgb(252, 75, 22)
+}
+
+.a9footer {
+    margin-top: -19%;
+    background-color: #424242;
+
+}
+
+
+/* a10 About */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-image img{
+    width: 100%;
+}
+
+.grid-text {
+    padding: 30px;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.grid-text h1{
+    color: rgb(252, 75, 22);
+}
+
+.grid-text > p > strong {
+    color: rgb(252, 75, 22);
+}
+
+.a10price h1{
+    color: rgb(252, 75, 22)
+}
+
+.a10footer {
+    margin-top: -19%;
+    background-color: #424242;
+
+}
